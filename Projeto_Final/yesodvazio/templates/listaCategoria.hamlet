@@ -1,0 +1,23 @@
+<a href=@{HomeR}>
+    Home
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                CATEGORIA
+            <th>
+
+            <th>
+
+    <tbody>
+        $forall Entity cid categoria <- categorias
+            <tr>
+                <td>
+                    #{categoriaCategoria categoria}
+                <td>
+                    <a href=@{EditarCategoriaR cid}>
+                        Editar
+                <td>
+                    <form method=post action=@{ApagarCategoriaR cid}>
+                        <input type="submit" value="X">

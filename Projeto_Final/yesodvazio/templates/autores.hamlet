@@ -1,0 +1,24 @@
+<div class="top">
+    <p>
+
+<h1>
+    Autores
+
+<a href=@{HomeR}>
+    Home
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                
+
+
+    <tbody>
+        $forall Entity _ autor <- autores
+            <tr>
+                <td>
+                    #{autorAutor autor}
+
+<div class="footer">
+    <p>©2021 Haskell Project

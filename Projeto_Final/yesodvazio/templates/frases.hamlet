@@ -1,0 +1,17 @@
+<div class="top">
+    <p>
+
+<h1>
+    Frases
+
+<a href=@{HomeR}>
+    Home
+
+<ul>
+    $forall (Entity _ frase, Entity _ autor, Entity _ categoria) <- tudo
+        <li>
+            #{fraseFrase frase} - #{autorAutor autor} - #{categoriaCategoria categoria}
+
+
+<div class="footer">
+    <p>©2021 Haskell Project

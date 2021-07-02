@@ -1,0 +1,23 @@
+<a href=@{HomeR}>
+    Home
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                AUTOR
+            <th>
+
+            <th>
+
+    <tbody>
+        $forall Entity aid autor <- autores
+            <tr>
+                <td>
+                    #{autorAutor autor}
+                <td>
+                    <a href=@{EditarAutorR aid}>
+                        Editar
+                <td>
+                    <form method=post action=@{ApagarAutorR aid}>
+                        <input type="submit" value="X">

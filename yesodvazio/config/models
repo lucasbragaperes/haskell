@@ -1,0 +1,5 @@
+Cliente
+    nome Text
+    cpf  Text
+    idade Int
+    deriving Show

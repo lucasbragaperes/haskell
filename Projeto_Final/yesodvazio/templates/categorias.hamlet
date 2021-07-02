@@ -1,0 +1,25 @@
+<div class="top">
+    <p>
+
+<h1>
+    Categorias
+
+<a href=@{HomeR}>
+    Home
+
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                
+
+    <tbody>
+        $forall Entity _ categoria <- categorias
+            <tr>
+                <td>
+                    #{categoriaCategoria categoria}
+
+<div class="footer">
+    <p>©2021 Haskell Project
